@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 @run_async
 def start(update,context):
 	name=update.message.chat.first_name
-	update.message.reply_text("Hi! "+name+"\nWelcome to Torrent Search Bot 😃,\nYou can search torrents using this bot just send me a search query to get started")
+	update.message.reply_text("Hi! ||"+name+"||\nWelcome to @PiratedCityPC Search Bot 😃,\nYou can search torrents using this bot just send me a search query to get started")
 
 @run_async    
 def search (update,context):
