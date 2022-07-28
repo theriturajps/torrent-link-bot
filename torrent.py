@@ -135,7 +135,7 @@ def button(update,context):
 
 persistence=PicklePersistence('torrentdata')
 def main():
-    token=os.environ.get("bot_token", "")
+    token=os.environ.get("bot_token", "5409308856:AAH_Xwtj3sTms-QB0ACg3I4T9bTChFyAPxA")
     updater = Updater(token,use_context=True, persistence=persistence)
     dp=updater.dispatcher
     dp.add_handler(CommandHandler('start',start))
@@ -150,8 +150,3 @@ def main():
 	
 if __name__=="__main__":
 	main()
-
-
-
-
-	
